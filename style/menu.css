@@ -5,13 +5,13 @@
 }
 
 .menu__lista{
+    background-color: var(--branco-principal);
     display: none;
     flex-direction: column;
     position: absolute;
-    background-color: var(--branco-principal);
-    margin-top: 1.5em;
-    width: 30%;
-    height: 60%;
+    margin-top: 0.3em;
+    width: 50%;
+    height: auto;
 }
 
 #menu-nav.active .menu__lista{
@@ -31,6 +31,7 @@
     color: var(--laranja-principal);
     padding: 0 1em;
     text-align: center;
+    z-index: 16;
 }
 
 .menu__link:focus {

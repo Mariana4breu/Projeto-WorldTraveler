@@ -1,5 +1,9 @@
 .cabecalho {
     display: flex;
+    height: 4em;
+    background: url('../img/header-bg.png') no-repeat center;
+    position: absolute;
+    width: 100%;
 }
 
 
@@ -8,5 +12,11 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    padding-bottom: 5em;
+    padding-top: 1em;
 }
+
+.cabecalho__logo{
+    margin: 5em;
+    padding-bottom: 1em;
+}
+
