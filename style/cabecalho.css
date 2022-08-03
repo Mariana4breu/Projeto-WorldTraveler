@@ -1,0 +1,12 @@
+.cabecalho {
+    display: flex;
+}
+
+
+
+.cabecalho__container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 5em;
+}

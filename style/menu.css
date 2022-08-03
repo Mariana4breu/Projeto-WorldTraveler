@@ -1,0 +1,43 @@
+.btn__menu {
+    background-color: var(--branco-principal);
+    border: none;
+    padding: 1em;
+}
+
+.menu__lista{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--branco-principal);
+    margin-top: 1.5em;
+    width: 30%;
+    height: 60%;
+}
+
+#menu-nav.active .menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    color: var(--laranja-principal);
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: var(--laranja-principal);
+    padding: 0 1em;
+    text-align: center;
+}
+
+.menu__link:focus {
+    font-weight: 800;
+    border-bottom: 1px  solid var(--laranja-principal);
+}
+
+.menu__icon {
+    padding: 0 0 0 0.5em;
+}

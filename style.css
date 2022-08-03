@@ -1,0 +1,15 @@
+@import url('style/menu.css');
+@import url('style/cabecalho.css');
+
+:root {
+    --laranja-principal: #FEAC64;
+    --laranja-background: #FFA350;
+    --laranja-botao: #E1A271;
+    --laranja-escuro: #DB8747;
+    --cinza-escuro: #6C6C6C;
+    --branco-principal: #FFFFFF;
+    --fonte-principal: "Montserrat";
+    --fonte-banner: "Damion";
+    --fonte-texto: "Open Sans";
+
+}
