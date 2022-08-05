@@ -1,13 +1,17 @@
 .rodape {
-    background: var(--laranja-background);
+    background-color: var(--laranja-background);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .rodape__logo{
-    padding-top: 2em;
-    margin-right: 2em;
+    position: relative;
+    padding-right: 1em;
+    align-items: center;
 }
 
 .rodape__titulo{
@@ -17,7 +21,7 @@
     font-size: 10px;
     text-align: center;
     width:80%;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .rodape__lista-icon{
@@ -26,11 +30,11 @@
     justify-content: center;
     flex-direction: row;
     width: 80%;
-    margin-left: 1.2em;
+    margin-left: 0.8em;
 }
 
 .rodape__item {
-    padding: 0.8em;
+    padding: 0.5em;
 }
 
 .copyright {
@@ -46,14 +50,13 @@
 .rodape__lista-principal{
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    margin: 2em 0 1em 3em;
+    justify-content:flex-end;
+    margin: 2em 0 2em 3em;
     border-left: 1px solid var(--branco-principal);
-    padding-left: 1em;
 }
 
 .lista_item{
-    padding: 0.2em;
+    padding: 0 2em 0.5em 2em;
 }
 
 .lista_link{
@@ -65,3 +68,114 @@
     line-height: 1.5em;    
 }
 
+.rede-social{
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .rodape{
+        justify-content: space-around;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 101%;
+    }
+
+    .logo-copy{
+        flex-direction: column;
+    }
+
+    .rodape__logo{
+        margin-top: 1em;
+        height: 20vw;
+    }
+    
+    .copyright{
+        font-size: 10px;
+        margin-left: 3vw;
+    }
+
+    .lista_link{
+        font-size: 15px;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    .rede-social{
+        display: flex;
+        flex-direction: column;
+        height: 10vw;
+    }
+
+    .rodape__titulo{
+        font-size: 20px;
+    }
+
+    .rodape__item{
+        padding: 1.5em;
+    }
+
+    .rodape__img{
+        height: 2.5em;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .rodape{
+        justify-content: space-around;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 101%;
+    }
+
+    .logo-copy{
+        flex-direction: column;
+    }
+
+    .rodape__logo{
+        margin-top: 1em;
+        height: 20vw;
+    }
+    
+    .copyright{
+        font-size: 18px;
+        margin-left: 3vw;
+    }
+
+    .lista_link{
+        font-size: 24px;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    .rede-social{
+        display: flex;
+        flex-direction: column;
+        height: 15em;
+    }
+
+    .rodape__titulo{
+        font-size: 26px;
+    }
+
+    .rodape__item{
+        padding: 1.8em;
+    }
+
+    .rodape__img{
+        height: 4em;
+    }
+
+}

@@ -12,11 +12,15 @@
     display: flex;
     justify-content: center;
     align-self: center;
+    margin-right: 2em;
     padding-top: 1em;
+    width:100%;
 }
 
 .cabecalho__logo{
-    margin: 5em;
+    position: relative;
     padding-bottom: 1em;
+    padding-right: 1em;
+    align-items: center;
 }
 

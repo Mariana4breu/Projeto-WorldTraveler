@@ -5,12 +5,11 @@
 }
 
 .menu__lista{
-    background-color: var(--branco-principal);
+    background-color: var(--branco-principal) !important;
     display: none;
     flex-direction: column;
     position: absolute;
-    margin-top: 0.3em;
-    width: 50%;
+    width: auto;
     height: auto;
 }
 
