@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 7em;
+    padding-left: 1.5em;
 }
 
 .bg__titulo--sobre{
@@ -16,8 +17,10 @@
     font-size: 28px;
     margin-top: -35px !important;
 }
-/*ACRESCENTAR ITENS DO CONTEUDO__TITULO--SOBRE*/
 
+.img--sobre{
+    display: none;
+}
 
 .conteudo__descricao--sobre{
     font-family: var(--fonte-texto);
@@ -39,46 +42,98 @@
 }
 
 @media screen and (min-width: 375px) and (max-width:459px){
-    
+    .conteudo__chamada--sobre{
+        font-size: 32px;
+        padding-right: 1em;
+        margin-top: -45px !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px){
+    .conteudo__sobre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .conteudo__chamada--sobre{
+        font-size: 48px;
+        margin-top: -72px !important;
+        padding-right: 1.5em;
+    }
+    
     .conteudo__titulo--sobre{
         margin-top:30%;
     }
-    /*ACRESCENTAR ITENS DO CONTEUDO__TITULO--SOBRE*/
+    
+    .img--sobre{
+        display:flex;
+        width: 30%;
+        margin: auto;
+    }
+
+    .conteudo__descricao--sobre{
+        width: 60%;
+        text-align:center;
+    }
+    
 
     .descricao__titulo-principal--sobre{
-        padding-left: 1em;
-        font-size: 20px;
+        display:flex;
+        width: 30%;
+        height: 2em;
+        margin: 0;
+        padding-top: 1em;
+        font-size: 16px;
+        transform: translateX(130%);
     }
+
+    
     .descricao-texto--sobre{
-        font-size: 15px;
+        font-size: 12px;
         padding-left: 1.2em;
     }
 }
 
 @media screen and (min-width: 1024px){
-    .conteudo__titulo--sobre{
-        margin-top:8%;
-    }
-
-    /*ACRESCENTAR ITENS DO CONTEUDO__TITULO--SOBRE*/
-
     .conteudo__sobre{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .bg__titulo--sobre{
+        width: 50%;
+    }
+
+    .conteudo__chamada--sobre{
+        font-size: 56px;
+        margin-top: -80px !important;
+        padding-right: 1.5em;
+    }
+    
+    .conteudo__titulo--sobre{
+        margin: 5em 0;
+    }
+
+    .img--sobre{
+        display:flex;
+        width: 30%;
     }
 
     .conteudo__descricao--sobre{
-        margin: 5em 3em;
+        width: 60%;
+        text-align: center;
     }
 
     .descricao__titulo-principal--sobre{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .descricao-texto--sobre{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.8em;
     }
 }
