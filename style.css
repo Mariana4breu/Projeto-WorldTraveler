@@ -11,8 +11,28 @@
     --laranja-escuro: #DB8747;
     --cinza-escuro: #6C6C6C;
     --branco-principal: #FFFFFF;
+    --branco-scrollbar: #fdfdfd;
     --fonte-principal: "Montserrat";
     --fonte-banner: "Damion";
     --fonte-texto: "Open Sans";
 
 }
+
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background: var(--branco-scrollbar); 
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--laranja-principal);
+    border-radius: 10px;
+    border: 2px solid var(--laranja-background);
+}
+

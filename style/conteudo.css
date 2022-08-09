@@ -21,7 +21,7 @@
 
 .conteudo__descricao{
     font-family: var(--fonte-texto);
-    width: 80%;
+    width: 90%;
     margin: 2em;
 }
 
@@ -52,5 +52,36 @@
     .descricao-texto{
         font-size: 15px;
         padding-left: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .conteudo__titulo{
+        margin-top:8%;
+    }
+
+    .titulo-principal, .titulo-secundario{
+        font-size: 24px;
+    }
+
+    .titulo-logo{
+        width:20em;
+    }
+
+    .conteudo__home{
+        display: flex;
+    }
+
+    .conteudo__descricao{
+        margin: 5em 3em;
+    }
+
+    .descricao__titulo-principal{
+        font-size: 20px;
+    }
+
+    .descricao-texto{
+        font-size: 16px;
+        line-height: 1.8em;
     }
 }
