@@ -5,6 +5,10 @@
 @import url('style/rodape.css');
 @import url('style/banner--sobre.css');
 @import url('style/conteudo--sobre.css');
+@import url('style/banner--galeria.css');
+@import url('style/banner--contato.css');
+@import url('style/banner--blog.css');
+@import url('style/banner--destinos.css');
 
 :root {
     --laranja-principal: #FEAC64;
