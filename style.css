@@ -3,6 +3,8 @@
 @import url('style/banner.css');
 @import url('style/conteudo.css');
 @import url('style/rodape.css');
+@import url('style/banner--sobre.css');
+@import url('style/conteudo--sobre.css');
 
 :root {
     --laranja-principal: #FEAC64;
