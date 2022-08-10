@@ -9,15 +9,17 @@
 @import url('style/banner--contato.css');
 @import url('style/banner--blog.css');
 @import url('style/banner--destinos.css');
+@import url('style/conteudo--galeria.css');
 
 :root {
     --laranja-principal: #FEAC64;
     --laranja-background: #FFA350;
-    --laranja-botao: #E1A271;
     --laranja-escuro: #DB8747;
-    --cinza-escuro: #6C6C6C;
+    --laranja-botao: #E1A271;
+    --laranja-card: #f1d7c3;
     --branco-principal: #FFFFFF;
     --branco-scrollbar: #fdfdfd;
+    --cinza-escuro: #6C6C6C;
     --fonte-principal: "Montserrat";
     --fonte-banner: "Damion";
     --fonte-texto: "Open Sans";
