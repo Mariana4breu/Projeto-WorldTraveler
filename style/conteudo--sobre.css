@@ -3,19 +3,22 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 7em;
+    margin-top: 4em;
     padding-left: 1.5em;
 }
 
-.bg__titulo--sobre{
-    width: 70%;
-}
-
 .conteudo__chamada--sobre{
+    background: url('/../img/background-icon.png') center no-repeat;
+    background-size: 100%;
     color: var(--branco-principal);
     font-family: var(--fonte-banner);
     font-size: 28px;
-    margin-top: -35px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 4em;
+    margin-top: -10px !important;
 }
 
 .img--sobre{
@@ -42,12 +45,16 @@
 }
 
 @media screen and (min-width: 375px) and (max-width:459px){
-    .conteudo__chamada--sobre{
-        font-size: 32px;
-        padding-right: 1em;
-        margin-top: -45px !important;
+    .conteudo__titulo--sobre{
+        margin-top: 6em
     }
-}
+    
+    .conteudo__chamada--sobre{
+            font-size: 24px;
+            width: 55%;
+        }
+    }
+
 
 @media screen and (min-width: 768px) and (max-width:1023px){
     .conteudo__sobre{
@@ -58,9 +65,8 @@
     }
 
     .conteudo__chamada--sobre{
-        font-size: 48px;
-        margin-top: -72px !important;
-        padding-right: 1.5em;
+        font-size: 42px;
+        width: 45%;
     }
     
     .conteudo__titulo--sobre{
@@ -81,12 +87,13 @@
 
     .descricao__titulo-principal--sobre{
         display:flex;
-        width: 30%;
+        justify-content: center;
+        width: auto;
         height: 2em;
         margin: 0;
         padding-top: 1em;
         font-size: 16px;
-        transform: translateX(130%);
+        
     }
 
     
@@ -104,27 +111,22 @@
         justify-content: flex-end;
     }
 
-    .bg__titulo--sobre{
-        width: 50%;
-    }
-
     .conteudo__chamada--sobre{
-        font-size: 56px;
-        margin-top: -80px !important;
-        padding-right: 1.5em;
-    }
-    
+            font-size: 54px;
+            width: 45%;
+        }
+
     .conteudo__titulo--sobre{
-        margin: 5em 0;
+        margin-top: -120px;
     }
 
     .img--sobre{
         display:flex;
-        width: 30%;
+        width: 38%;
     }
 
     .conteudo__descricao--sobre{
-        width: 60%;
+        width: 55%;
         text-align: center;
     }
 
@@ -135,5 +137,22 @@
     .descricao-texto--sobre{
         font-size: 18px;
         line-height: 1.8em;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .conteudo__titulo--sobre{
+        margin: 5em 0;
+    }
+
+    .bg__titulo--sobre{
+        display: none;
+        width: 40%;
+    }
+
+    .conteudo__chamada--sobre{
+        font-size: 64px;
+        width: 40%;
+        height: 2em;
     }
 }

@@ -15,8 +15,10 @@
 }
 
 .cabecalho__logo {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 10vw;
+    margin-left: 5vw;
     position: relative;
     padding: 0 1em 1.5em 0;
 }
@@ -27,7 +29,7 @@
 
 @media screen and (min-width: 375px) and (max-width:459px){
     .cabecalho__logo{
-        margin-left: 20vw;
+        margin-left: 15vw;
     }
 }
 
