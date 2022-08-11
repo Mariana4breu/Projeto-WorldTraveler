@@ -1,15 +1,15 @@
-@import url('style/cabecalho.css');
-@import url('style/menu.css');
-@import url('style/banner.css');
-@import url('style/conteudo.css');
-@import url('style/rodape.css');
-@import url('style/banner--sobre.css');
-@import url('style/conteudo--sobre.css');
-@import url('style/banner--galeria.css');
-@import url('style/banner--contato.css');
-@import url('style/banner--blog.css');
-@import url('style/banner--destinos.css');
-@import url('style/conteudo--galeria.css');
+@import url('/style/cabecalho.css');
+@import url('/style/menu.css');
+@import url('/style/banner.css');
+@import url('/style/conteudo.css');
+@import url('/style/rodape.css');
+@import url('/style/banner--sobre.css');
+@import url('/style/conteudo--sobre.css');
+@import url('/style/banner--galeria.css');
+@import url('/style/banner--contato.css');
+@import url('/style/banner--blog.css');
+@import url('/style/banner--destinos.css');
+@import url('/style/conteudo--galeria.css');
 
 :root {
     --laranja-principal: #FEAC64;
