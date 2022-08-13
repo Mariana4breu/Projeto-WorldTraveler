@@ -1,0 +1,343 @@
+.conteudo--contato{
+    margin: 8em 0 3em 0;
+}
+
+.contato__descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.contato-titulo{
+    color: var(--laranja-principal);
+    font-family: var(--fonte-banner);
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.contato-texto{
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-texto);
+    font-size: 12px;
+    text-align: center;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form__container{
+    background-color: var(--background-form);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    margin-left: 2em;
+    padding: 1em;
+    border: 2px solid var(--laranja-escuro);
+}
+
+.form{
+    color: var(--laranja-escuro);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.form-campo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+/*.form-titulo{
+    padding-bottom: 0.2rem;
+    font-size: 16px;
+}*/
+
+.form-input, .form-campo--mensagem{
+    background: transparent;
+    font-family: var(--fonte-texto);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--laranja-escuro);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.form-input{
+    border: none;
+    border-bottom: 1px solid var(--laranja-escuro);
+}
+
+.form-campo--mensagem{
+    border: 1px solid var(--laranja-escuro);
+    margin-left: 1rem;
+    width: 85%;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-campo--mensagem:focus{
+    outline: none;
+}
+
+.form.titulo {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    transition: all .25s;
+}
+
+.titulo--mensagem{
+    margin-bottom: 0.3rem;
+    margin-left: 1rem;
+}
+
+.btn-form{
+    background-color: var(--laranja-botao);
+    border: 2px solid var(--laranja-escuro);
+    border-radius: 2px;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 65%;
+}
+
+
+span{
+    color: var(--cinza-escuro);
+    font-weight: 300;
+    font-size: 9px;
+    display: none;
+    margin-bottom: 3px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .conteudo--contato{
+        margin-top: 20em;
+    }
+
+    .contato-titulo{
+        font-size:32px;
+    }
+
+    .contato-texto{
+        width: 75%;
+        font-size: 16px;
+        line-height: 1.2rem;
+    }
+    
+    .form__container{
+        margin-left: 5em;
+    }
+
+    .form{
+        background-color: none;
+        background-image: url('/../img/cartaoPostal-escuro.png');
+        background-size: 100%;
+        width: 100%;
+        height: 27em;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .form-column{
+        margin-top: 5rem;
+    }
+
+    .form-input{
+        width:110%;
+        margin-bottom: 5px;
+    }
+
+    .form-campo--mensagem{
+        width: 100%;
+        margin-left: 0.2rem;
+    }
+
+    .titulo--mensagem{
+        margin-bottom: 0.5rem;
+        margin-left: 0.2rem;
+    }
+
+    .bcg-contato{
+        background-image: url('/../img/bcg-contato.jpg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 100%;
+        height: 40vw;
+    }
+
+    span{
+        color: var(--cinza-escuro);
+        font-weight: 300;
+        font-size: 10px;
+        display: none;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .contato-titulo{
+        font-size: 38px;
+    }
+
+    .contato-texto{
+        font-size: 18px;
+    }
+
+    .form__container{
+        margin-left:8em;
+    }
+    
+    .form{
+        background-image: url('/../img/cartaoPostal-escuro.png');
+        background-size: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 36em;
+        padding-left: 0;
+        padding-right: 5em;
+    }
+
+    .form-titulo{
+        font-size: 18px;
+        padding-bottom: 0.2rem;
+    }
+
+    .form-campo--mensagem{
+        width: 120%;
+        margin-left: 3em;
+    }
+
+    .form-column{
+        margin-top: 4rem;
+    }
+
+    .form-input{
+        width: 150%;
+        margin-bottom: 7px;
+    }
+
+    
+
+    .titulo--mensagem{
+        margin-left:2.5em;
+    }
+
+    .btn-form{
+        width: 40%;
+        height: 40%;
+        font-size:18px;
+        margin-left: 100%;
+    }
+
+    .bcg-contato{
+        background-image: url('/../img/bcg-contato.jpg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 100%;
+        height: 40vw;
+    }
+
+    span{
+        color: var(--cinza-escuro);
+        font-weight: 300;
+        font-size: 12px;
+        display: none;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .contato-titulo{
+        font-size: 42px;
+    }
+
+    .contato-texto{
+        font-size: 20px;
+    }
+    
+    .form__container{
+        margin-left:10em;
+    }
+    
+    .form{
+        background-image: url('/../img/cartaoPostal-escuro.png');
+        background-size: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        height: 40em;
+        padding-left: 0;
+        padding-right: 5em;
+    }
+    
+    .form-column{
+        margin-top: 10em;
+    }
+
+    .column-principal{
+        margin-left: 5em;
+    }
+
+
+    .form-input{
+        width: 200%;
+        margin-bottom: 7px;
+    }
+
+    .form-campo--mensagem{
+        width: 90%;
+        height: 90%;
+        margin-right: 15em;
+    }
+
+    .form-titulo{
+        font-size: 20px;
+    }
+
+
+    .titulo--mensagem{
+        margin-left:1em;
+    }
+
+    .btn-form{
+        width: 30%;
+        height: 40%;
+        font-size:18px;
+        margin-left: 67%;
+    }
+
+    .bcg-contato{
+        background-image: url('/../img/bcg-contato.jpg');
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 100%;
+        height: 40vw;
+    }
+
+    span{
+        color: var(--cinza-escuro);
+        font-weight: 300;
+        font-size: 14px;
+        display: none;
+        margin-bottom: 5px;
+    }
+}

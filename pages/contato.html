@@ -74,9 +74,49 @@
     </header>
     <section class="banner--contato">
         <div class="banner__imagem--contato"></div>
-        <h2 class="banner__titulo--contato">Fale com a gente</h2>
+        <h2 class="banner__titulo--contato">Entre em Contato</h2>
     </section>
+    <section class="conteudo--contato">
+        <div class="contato__descricao">
+            <h2 class="contato-titulo">Fale com a gente!</h2>
+            <p class="contato-texto">Tem alguma dúvida sobre nosso blog?</p>
+            <p class="contato-texto">Nós estamos aqui para ajudar!</p>
+            <p class="contato-texto">Fazemos nosso melhor para responder as perguntas o mais rápido possível, geralmente dentro de 24 horas.</p>
+            <p class="contato-texto">Envie-nos o máximo de informações possível para que possamos ajudá-lo melhor.</p>
+        </div>
+
+        <div class="form__container ">
+            <form class="form" id="form">
+                <div class="form-column column-principal">
+                    <div class="form-campo">
+                        <label class="form-titulo">Nome</label>
+                        <input type="text" placeholder="ex.: World Traveler" class="form-input required" autocomplete="off" oninput="nameValidate()">
+                        <span class="span-required">Campo não é válido</span>
+                    </div>
+                    <div class="form-campo">
+                        <label class="form-titulo">Telefone</label>
+                        <input type="tel" placeholder="ex.:(21) 99999-9999" class="form-input required" autocomplete="off" oninput="telValidate()">
+                        <span class="span-required">Digite um telefone válido</span>
+                    </div>
+                    <div class="form-campo">
+                        <label class="form-titulo">Email</label>
+                        <input type="email" placeholder="ex.: worldtraveler@email.com" class="form-input required" autocomplete="off" oninput="emailValidate()">
+                        <span class="span-required">Digite um e-mail válido</span>
+                    </div>
+                </div>
+                <div class="form-column column-msg">
+                    <div class="form-campo">
+                        <label class="form-titulo titulo--mensagem">Mensagem</label>
+                        <textarea class="form-campo--mensagem" cols="25" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-form">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="bcg-contato"></section>
     <script src="/menu.js"></script>
+    <script src="/valida-form.js"></script>
 </body>
 <footer class="rodape">
         <div class="rodape__container container logo-copy">

@@ -37,6 +37,10 @@
     .cabecalho__container{
         margin-left: 20vw;
     }
+
+    .cabecalho__logo{
+        margin-left: 15vw;
+    }
 }
 
 @media screen and (min-width: 1024px){
