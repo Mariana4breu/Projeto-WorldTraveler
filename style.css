@@ -11,6 +11,7 @@
 @import url('/style/banner--destinos.css');
 @import url('/style/conteudo--galeria.css');
 @import url('/style/conteudo--contato.css');
+@import url('/style/conteudo--blog.css');
 
 :root {
     --laranja-principal: #FEAC64;
@@ -20,6 +21,7 @@
     --laranja-error: #d64400;
     --laranja-card: #f1d7c3;
     --background-form: #EDDDC8;
+    --background-card: #faf5ec;
     --branco-principal: #FFFFFF;
     --branco-scrollbar: #fdfdfd;
     --cinza-escuro: #6C6C6C;

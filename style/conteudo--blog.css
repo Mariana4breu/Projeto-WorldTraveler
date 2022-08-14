@@ -1,0 +1,69 @@
+.conteudo--blog{
+    font-family: var(--fonte-texto);
+    font-size:16px;
+    line-height: 1.5;
+    margin-top: 10em;
+}
+
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80%);
+}
+
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-card{
+    background: var(--background-card);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+
+.article-content{
+    padding: 2rem;
+}
+
+.article-content .card-category{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    display: block;
+    text-decoration: none;
+}
+
+.article-content .card-title{
+    margin: 0.2rem 0;
+    color: var(--laranja-principal);
+    font-weight: 800;
+    
+}
+
+.article-content .card-description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--cinza-escuro);
+    margin: 0;
+}
