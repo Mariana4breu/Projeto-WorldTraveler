@@ -67,3 +67,55 @@
     color: var(--cinza-escuro);
     margin: 0;
 }
+
+@media screen and (min-width: 768px){
+    .conteudo--blog{
+        margin-top: 20em;
+    }
+    
+    .site-container{
+        max-width: 608px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .conteudo--blog{
+        margin-top: 10em;
+    }
+    
+    .site-container{
+        max-width: 950px;
+    }
+
+    .article-container{
+        gap: 3rem;
+    }
+
+    .article-card{
+        display: grid;
+        grid-template-rows: 260px 1fr;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .conteudo--blog{
+        margin-top: 10em;
+    }
+    
+    .site-container{
+        max-width: 1000px;
+    }
+
+    .article-container{
+        gap: 3rem;
+    }
+
+    .article-card{
+        display: grid;
+        grid-template-rows: 260px 1fr;
+    }
+}
