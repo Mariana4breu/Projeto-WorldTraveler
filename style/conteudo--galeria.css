@@ -67,7 +67,7 @@ img.room-active{
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .conteudo--galeria{
         height: 98vh;
-        margin: 20em 1em 20em 3em;
+        margin: 20em 1em 25em 3em;
     }
     
     .room-gallary{
@@ -87,11 +87,13 @@ img.room-active{
     
     .galeria__titulo{
         font-size: 32px;
+        margin-top: 1em;
     }
     
     .galeria__texto{
         font-size: 14px;
         padding: 1em 0;
+        margin-bottom: 3em;
     }
 }
 

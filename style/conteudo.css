@@ -42,6 +42,11 @@
     .conteudo__titulo{
         margin-top:40%;
     }
+
+    .titulo-logo{
+        width: 15em;
+    }
+
     .titulo-principal, .titulo-secundario{
         font-size: 18px;
     }

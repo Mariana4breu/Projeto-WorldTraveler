@@ -4,12 +4,13 @@ const spans = document.querySelectorAll('.span-required');
 const telRegex = /^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$/;
 const emailRegex = /^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$/;
 
-//form.addEventListener('submit', (event) =>{
-//    event.preventDefault();
-//    nameValidate();
-//    telValidate();
-//    emailValidate();
-//});
+form.addEventListener('submit', (event) =>{
+    //event.preventDefault();
+    nameValidate();
+    telValidate();
+    emailValidate();
+});
+
 
 function setError(index){
     campos[index].style.border = '2px solid #d64400';
